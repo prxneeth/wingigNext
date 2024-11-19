@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "location": "Hyderabad",
+    "company": "Tech Solutions",
+    "salary": "6lakhs - 10lakhs",
+    "type": "Full-time"
+  },
+  {
+    "id": 2,
+    "title": "Engineering Manager",
+    "location": "Bangalore",
+    "company": "Innovative Labs",
+    "type": "Full-time"
+  },
+  {
+    "id": 3,
+    "title": "Artificial Engineer",
+    "location": "Mumbai",
+    "company": "AI Experts",
+    "type": "Full-time"
+  },
+  {
+    "id": 4,
+    "title": "Machine Learning Engineer",
+    "location": "Delhi",
+    "company": "ML Innovators",
+    "type": "Part-time"
+  },
+  {
+    "id": 5,
+    "title": "Backend Engineer",
+    "location": "Chennai",
+    "company": "Backend Solutions",
+    "type": "Full-time"
+  },
+  {
+    "id": 6,
+    "title": "Frontend Engineer",
+    "location": "Kolkata",
+    "company": "Frontend Masters",
+    "type": "Part-time"
+  },
+  {
+    "id": 7,
+    "title": "Software Engineer",
+    "location": "Bangalore",
+    "company": "DevOps Ltd.",
+    "type": "Full-time"
+  },
+  {
+    "id": 8,
+    "title": "Engineering Manager",
+    "location": "Mumbai",
+    "company": "AI Corp",
+    "type": "Part-time"
+  },
+  {
+    "id": 9,
+    "title": "Artificial Engineer",
+    "location": "Hyderabad",
+    "company": "Artificial World",
+    "type": "Full-time"
+  },
+  {
+    "id": 10,
+    "title": "Machine Learning Engineer",
+    "location": "Chennai",
+    "company": "ML Systems",
+    "type": "Part-time"
+  },
+  {
+    "id": 11,
+    "title": "Backend Engineer",
+    "location": "Delhi",
+    "company": "Backends Only",
+    "type": "Full-time"
+  },
+  {
+    "id": 12,
+    "title": "Frontend Engineer",
+    "location": "Bangalore",
+    "company": "Frontend Corp",
+    "type": "Full-time"
+  },
+  {
+    "id": 13,
+    "title": "Software Engineer",
+    "location": "Chennai",
+    "company": "Tech World",
+    "type": "Part-time"
+  },
+  {
+    "id": 14,
+    "title": "Engineering Manager",
+    "location": "Kolkata",
+    "company": "Managers Inc",
+    "type": "Full-time"
+  },
+  {
+    "id": 15,
+    "title": "Artificial Engineer",
+    "location": "Delhi",
+    "company": "Artificial Innovators",
+    "type": "Part-time"
+  },
+  {
+    "id": 16,
+    "title": "Machine Learning Engineer",
+    "location": "Bangalore",
+    "company": "ML Developers",
+    "type": "Full-time"
+  },
+  {
+    "id": 17,
+    "title": "Backend Engineer",
+    "location": "Mumbai",
+    "company": "Backend Innovators",
+    "type": "Full-time"
+  },
+  {
+    "id": 18,
+    "title": "Frontend Engineer",
+    "location": "Hyderabad",
+    "company": "Frontend Experts",
+    "type": "Part-time"
+  },
+  {
+    "id": 19,
+    "title": "Software Engineer",
+    "location": "Kolkata",
+    "company": "Developers Ltd.",
+    "type": "Full-time"
+  },
+  {
+    "id": 20,
+    "title": "Engineering Manager",
+    "location": "Delhi",
+    "company": "Engineering Experts",
+    "type": "Full-time"
+  }
+]
