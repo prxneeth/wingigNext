@@ -11,15 +11,14 @@ function isProtectedRoute(path) {
 }
 
 
-console.log("Middleware is running")
 export async function middleware(request) {
     const user = await getUserMeLoader();
     const currentPath = request.nextUrl.pathname;
 
-    console.log("#################")
-    console.log(user)
-    console.log(currentPath)
-    console.log("#################")
+    // console.log("#################")
+    // console.log(user)
+    // console.log(currentPath)
+    // console.log("#################")
 
 
     if (isProtectedRoute(currentPath) && user.ok === false) {

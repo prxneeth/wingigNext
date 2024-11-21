@@ -9,16 +9,6 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
-				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
-				},
-				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
-				},
 				custombg: {
 					black: '#000000',
 					blue: '#429DC3',
@@ -30,13 +20,8 @@ module.exports = {
 				},
 			},
 			screens: {
-				xs: '470px'
+				xs: '450px'
 			},
-			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
-			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

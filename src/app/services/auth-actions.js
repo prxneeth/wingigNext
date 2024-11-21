@@ -3,8 +3,7 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
 import { registerUserService, loginUserService } from "./auth-service";
-import { useContext } from "react";
-import { ContextErrMsg } from "@/context/context";
+
 
 const config = {
     maxAge: 60 * 60 * 24 * 7, // 1 week
@@ -88,5 +87,11 @@ export async function loginUser(formData) {
     const cookieStore = await cookies();
     cookieStore.set("jwt", responseData.jwt, config);
 
+    redirect("/");
+}
+
+export async function logoutAction() {
+    const cookieStore = await cookies();
+    cookieStore.set("jwt", "", { ...config, maxAge: 0 });
     redirect("/");
 }

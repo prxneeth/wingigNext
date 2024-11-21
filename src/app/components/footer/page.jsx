@@ -3,9 +3,9 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <section className=" py-10  bg-custombg-base ">
+    <section className=" py-10   bg-custombg-base ">
       <div className="  ">
-        <div className=" flex justify-center">
+        <div className="  flex justify-center ">
           <div className="w-full p-6 md:w-1/2 lg:w-2/12">
             <div className="h-full">
               <ul className="list-none text-start">
