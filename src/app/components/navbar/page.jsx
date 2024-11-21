@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex justify-between w-full left-0  lg:bg-white md:bg-white sm:bg-custombg-base xs:bg-custombg-base text-white fixed top-0 z-50 `}
+      className={`flex justify-between w-full left-0  lg:bg-white md:bg-white  text-white  top-0 z-50 `}
     >
       <div className="lg:w-1/6 sm:w-1/5">
         <img
