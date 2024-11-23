@@ -73,7 +73,7 @@ function SeekerLogin() {
     <Card sx={{ minWidth: 275 }}>
       <CardContent
         color="primary"
-        className="m-0 grid place-items-center rounded-b-none bg-slate-800 py-8 px-4 text-center"
+        className="m-0 grid place-items-center rounded-b-none bg-custombg-base py-8 px-4 text-center"
       >
         <div className="mb-4 rounded-full border border-white/10 bg-white/10 p-2 text-white bg-slate-400">
           <div className=" flex justify-center">
@@ -145,7 +145,7 @@ function SeekerLogin() {
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2 }}
+              sx={{ mt: 3, mb: 2, backgroundColor: "rgb(29,49,59)" }}
             >
               Sign In
             </Button>

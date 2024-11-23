@@ -31,19 +31,19 @@ const Navbar = async () => {
         }}
         className="hidden md:flex items-center justify-end w-5/6 bg-custombg-base p-1 pr-10 pl-3"
       >
-        <ul className="flex list-none lg:space-x-36 md:space-x-2 sm:space-x-2 ">
+        <ul className="flex list-none lg:space-x-72 md:space-x-14 sm:space-x-2 ">
           <div className="flex gap-5 p-1">
             <li>
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/aboutUsPage/aboutusPage">About Us</Link>
+              <Link href="/components/aboutus">About Us</Link>
             </li>
             <li>
-              <Link href="/jobPortal/jobPortal">Jobs</Link>
+              <Link href="/components/jobportal">Jobs</Link>
             </li>
             <li>
-              <Link href="/contactpage/contactpage">Contact Us</Link>
+              <Link href="/components/contactus">Contact Us</Link>
             </li>
             <li>
               <Link href="/blog">Blog</Link>
@@ -51,7 +51,8 @@ const Navbar = async () => {
           </div>
           {user.ok ? (
             <div className="flex gap-2 mt-1">
-              Welcome, {user.data.username}{" "}
+              <Link href="/dashboard"> Welcome, {user.data.username}</Link>
+
               <span>
                 <LogoutButton />
               </span>

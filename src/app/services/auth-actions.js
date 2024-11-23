@@ -33,7 +33,7 @@ export async function registerUser(userData) {
     const cookieStore = await cookies();
     cookieStore.set("jwt", responseData.jwt, config);
 
-    redirect("/");
+    redirect("dashboard");
 }
 
 function validateForm(credentials) {
@@ -87,7 +87,7 @@ export async function loginUser(formData) {
     const cookieStore = await cookies();
     cookieStore.set("jwt", responseData.jwt, config);
 
-    redirect("/");
+    redirect("/dashboard");
 }
 
 export async function logoutAction() {

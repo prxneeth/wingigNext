@@ -58,6 +58,7 @@ const Technologies = () => {
         <section className="grid xs:grid-cols-3 xs:ml-5 xs:mr-5 lg:ml-52 lg:mr-40 md:mr-16 md:ml-36 sm:ml-20 sm:mr-10 lg:grid-cols-4 lg:gap-10 md:10 sm:10 xs:gap-5 md:grid-cols-3 sm:grid-cols-3  ">
           {technologies.slice(0, visibleCount).map((tech, index) => (
             <div
+              style={{ border: "hover: 1px solid green" }}
               key={index}
               className="bg-gray-200 text-gray-800 flex flex-col items-center justify-center lg:w-[170px] md:w-[150px] sm:w-[115px] lg:h-[180px] md:h-[160px] sm:h-[140px] rounded-md relative overflow-hidden shadow-md transition-transform duration-300 hover:scale-110 hover:border-2 border-black group  mb-4"
             >
@@ -68,11 +69,11 @@ const Technologies = () => {
                 width={80}
                 height={80}
               />
-              <p className="text-center font-medium text-sm group-hover:hidden mt-3">
+              <p className="text-center font-medium text-sm group-hover:hidden mt-3 ">
                 {tech.name}
               </p>
               <button
-                className="hidden absolute bottom-4 w-[90px] bg-gray-100 text-gray-800 text-sm py-1 px-2 rounded-md border hover:bg-gray-300 transition-transform duration-200 group-hover:block"
+                className="hidden absolute bottom-4 w-[90px] bg-gray-100 text-gray-800 text-sm py-1 px-2 rounded-md border  hover:bg-gray-300 transition-transform duration-500 group-hover:block"
                 onClick={() => handleKnowMoreClick(tech)}
               >
                 Know More
