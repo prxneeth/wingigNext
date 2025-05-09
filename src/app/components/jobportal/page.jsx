@@ -27,7 +27,8 @@ const JobPortal = () => {
     fetchJobPostings();
   }, []);
 
-  const handleSearch = () => {
+  const handleSearch = (e) => {
+    e.preventDefault();
     setJobField(tempJobField);
     setLocation(tempLocation);
 

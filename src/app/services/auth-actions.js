@@ -67,25 +67,25 @@ function validateForm(credentials) {
 }
 
 export async function loginUser(formData) {
-    if (!validateForm(formData)) {
+    // if (!validateForm(formData)) {
 
-        return { error: "Please correct the errors above." }
+    //     return { error: "Please correct the errors above." }
 
-    }
+    // }
 
-    const responseData = await loginUserService(formData);
+    // const responseData = await loginUserService(formData);
 
-    if (!responseData) {
+    // if (!responseData) {
 
-        return { error: "Ops! Something went wrong. Please try again." }
-    }
+    //     return { error: "Ops! Something went wrong. Please try again." }
+    // }
 
-    if (responseData.error) {
-        return { error: "Failed to Login." }
-    }
+    // if (responseData.error) {
+    //     return { error: "Failed to Login." }
+    // }
 
-    const cookieStore = await cookies();
-    cookieStore.set("jwt", responseData.jwt, config);
+    // const cookieStore = await cookies();
+    // cookieStore.set("jwt", responseData.jwt, config);
 
     redirect("/dashboard");
 }

@@ -44,7 +44,7 @@ export default function ImagePicker({ id, name, label, defaultValue }) {
   };
 
   return (
-    <React.Fragment>
+    <>
       <FormLabel htmlFor={name}>{label}</FormLabel>
       <input
         type="file"
@@ -56,6 +56,6 @@ export default function ImagePicker({ id, name, label, defaultValue }) {
         className="hidden"
       />
       <ImageCard dataUrl={dataUrl || ""} fileInput={fileInput} />
-    </React.Fragment>
+    </>
   );
 }

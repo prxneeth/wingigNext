@@ -3,7 +3,8 @@ import { getAuthToken } from "./get-token";
 export async function getUserMeLoader() {
     const baseUrl = "http://localhost:1337";
 
-    const url = new URL("/api/users/me", baseUrl);
+    const url = new URL("/api/users/me?populate=image", baseUrl);
+
 
     const authToken = await getAuthToken();
     if (!authToken) return { ok: false, data: null, error: null };

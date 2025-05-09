@@ -7,7 +7,8 @@ export default async function AccountRoute() {
   const user = await getUserMeLoader();
   const userData = user.data;
   const userImage = userData?.image;
-  console.log("#######", userImage);
+  console.log("###IMage###", userImage);
+  console.log("user", userData);
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 p-4">

@@ -17,6 +17,8 @@ function SeekerLogin() {
     password: "",
   });
 
+  console.log(credentials);
+
   const { message, setMessage } = useContext(ContextErrMsg);
 
   const handleChange = (e) => {

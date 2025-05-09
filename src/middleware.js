@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { getUserMeLoader } from "./app/services/get-user-me-loader";
 
 const protectedRoutes = [
-    "/dashboard",
+    // "/dashboard",
 
 ];
 
